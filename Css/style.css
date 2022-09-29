@@ -1,0 +1,405 @@
+/* Topbar Code Start */
+#topbar-section{
+    background: rgb(4,118,191);
+    padding: 5px;
+}
+#topbar-section h6,
+#topbar-section a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+/* Topbar Code End */
+
+/* Navbar Code Strat */
+#navbar-section {
+    background-image: url(../images/Back-image.jpg);
+    background-size: 100% 100%;
+    height: 80ch;
+    text-align: center;
+}
+#navbar-section .overlay {
+    position: relative ;
+    top: 0 ;
+    left: 0 ;
+    height: 100% ;
+    width: 100% ;
+    background: rgba(14, 14, 14, 0.336) ;
+}
+#navbar-section .active{
+    border-bottom: 3px solid #fff;
+}
+#navbar-section .navbar{
+    background: transparent;
+}
+#navbar-section .navbar-brand{
+    height: 80px;
+    width: 180px;
+}
+#navbar-section .navbar-brand img{
+    height: 100%;
+    width: 100%;
+}
+#navbar-section .nav-item{
+    margin-right: 25px;
+}
+#navbar-section .nav-item a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#navbar-section .search{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+#navbar-section .navbar-toggler {
+    border-color: white !important;
+}
+#navbar-section .fa-bars{
+    font-size: 28px;
+    color: #fff;
+}
+#navbar-section .search .fa-search{
+    color: #fff;
+    font-size: 13px;
+}
+#navbar-section .caption{
+    padding-top: 13rem;
+    color: #fff;
+}
+#navbar-section .caption h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+#navbar-section .caption h3{
+    font-size: 30px;
+}
+#navbar-section .caption .btn-primary{
+    border-radius: 0%;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    background: rgb(4,118,191);
+    border-color: rgb(4,118,191);
+    font-weight: 600;
+}
+/* Navbar Code End */
+
+
+/* Service Section Start */
+#service-section{
+    background: rgb(250, 250, 250);
+    padding: 2em;
+}
+#service-section .heading-text{
+    text-align: center;
+    padding-bottom: 2em;
+}
+#service-section .serviceBox{
+    background: #fff;
+    text-align: center;
+    padding: 0px 25px 40px;
+    margin: 20px 0 0;
+    border-radius: 20px !important;
+    position: relative;
+    transition: all 0.3s ease;
+}
+#service-section .serviceBox:hover{ 
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2) !important; 
+}
+#service-section .serviceBox:before,
+#service-section .serviceBox:after{
+    content: "";
+    background: linear-gradient(to top, #0476bf, #0476bf);
+    width: 10px;
+    border-radius: 0 100px 100px 0 !important;
+    position: absolute;
+    top: 110px;
+    bottom: 35px;
+    left: 0;
+}
+#service-section .serviceBox:after{
+    border-radius: 100px 0 0 100px !important;
+    left: auto;
+    right: 0;
+}
+#service-section .serviceBox .service-icon{
+    color: #fff;
+    background: linear-gradient(-45deg, #0476bf 49%, #0476bf 50%);
+    font-size: 45px;
+    line-height: 92px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 100px !important;
+    border: 15px solid #fff !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2) !important;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+#service-section .serviceBox:hover .service-icon i{
+    transform: rotateX(360deg);
+    transition: all 0.3s;
+}
+#service-section .serviceBox .title{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+#service-section .serviceBox .description{
+    color: #444;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+#service-section .serviceBox.pink:before,
+#service-section .serviceBox.pink:after{ 
+    background: linear-gradient(to top #0476bf 49% #0476bf); 
+}
+#service-section .serviceBox.pink .service-icon{ 
+    background:linear-gradient(-45deg #0476bf 49% #0476bf 50%); 
+}
+#service-section .serviceBox.pink .title{ 
+    color: #0476bf; 
+}
+#service-section .serviceBox.purple:before,
+#service-section .serviceBox.purple:after{ 
+    background: linear-gradient(to top,#0476bf 49%,#0476bf); 
+}
+#service-section .serviceBox.purple .service-icon{ 
+    background:linear-gradient(-45deg,#0476bf 49%,#0476bf 50%); 
+}
+#service-section .serviceBox.purple .title{ 
+    color: #000; 
+}
+#service-section .serviceBox.blue:before,
+#service-section .serviceBox.blue:after{ 
+    background: linear-gradient(to top, #0476bf 49%, #0476bf); 
+}
+#service-section .serviceBox.blue .service-icon{ 
+    background:linear-gradient(-45deg, #0476bf 49%, #0476bf 50%); 
+}
+#service-section .serviceBox.blue .title{ 
+    color: #000; 
+}
+@media only screen and (max-width:990px){
+    #service-section .serviceBox{ 
+        margin: 20px 0 50px; 
+    }
+}
+/* Service Section ENd */
+
+/* package section Code Satrt */
+#package-section,
+#brand-section{
+    background-image: url(../images/attechment\ image.jpg);
+    background-size: cover ;
+    height: 65ch;
+    padding: 30px;
+    text-align: center;
+    background-attachment: fixed;
+}
+#package-section h6,
+#brand-section h6,
+#helth-section h6{
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black ;
+}
+#package-section h5,
+#brand-section h5,
+#helth-section h5{
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black ;
+}
+#package-section .package-slider .realtives,
+#uitility-service .package-slider .realtives,
+#brand-section .realtives{ 
+    position: relative;
+}
+#package-section .package-slider .owl-carousel,
+#uitility-service .package-slider .owl-carousel,
+#brand-section .owl-carousel{
+    padding-top: 1em;
+}
+#package-section .package-slider .owl-carousel .item{
+    height: 45.5ch;
+    margin: 3px;
+    background: #fff;
+}
+#package-section .package-slider .owl-carousel .item .perple{
+    color: slateblue;
+}
+#package-section .package-slider .owl-carousel .item .red{
+    color: red;
+}
+#package-section .package-slider .owl-carousel .item .green{
+    color: green;
+}
+#package-section .package-slider .owl-carousel .item .blue{
+    color: rgb(1, 1, 109);
+}
+#package-section .package-slider .owl-carousel .box{
+    height: 21ch; 
+    width: 100% ; 
+    background: rgb(235, 235, 235); 
+}
+#package-section .package-slider .owl-carousel .item img{
+    width:100%; 
+    height:100%; 
+}
+#package-section .package-slider .owl-carousel .item h4,
+#uitility-service .package-slider .owl-carousel .item h4{
+    text-align: left !important;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#package-section .package-slider .owl-carousel .item p{
+    font-weight: 600; 
+    font-size: 13px;  
+    text-align: left !important;
+    padding: 0px 10px;
+}
+#package-section .package-slider .bottom-code {
+    text-align: left !important;
+    display: flex;
+    align-items: center !important;
+    background: rgb(211, 211, 211);
+}
+#package-section .package-slider .bottom-code h6{
+    text-shadow: none !important;
+    padding-left: 10px;
+}
+#package-section .package-slider .bottom-code .btn{
+    margin-left: auto;
+    width: 60%;
+    border-color: rgb(83, 190, 233);
+    background: rgb(83, 190, 233);
+    clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+/* package section Code End */
+
+/* uitility service code start */
+#uitility-service{
+    text-align: center !important;
+    padding: 20px; 
+    background: rgb(247, 247, 247);
+}
+#uitility-service h6{
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#uitility-service h5{
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#uitility-service .package-slider .owl-carousel .item{
+    margin: 6px;
+    padding: 2px;
+    width: 15ch;
+}
+#uitility-service .package-slider .owl-carousel .item p{
+    font-weight: bold;
+}
+#uitility-service .package-slider .owl-carousel .box img{
+    width:100%; 
+    height:100%;
+    padding: 10px; 
+    border-radius: 50%;
+}
+#uitility-service .package-slider .owl-carousel .box{
+    height: 15ch; 
+    width: 15ch; 
+    border-radius: 50% !important;
+    background: #f4f3f3;
+}
+/* uitility service code End */
+
+
+/* brand section code Start */
+#brand-section{
+    height: 68ch !important;
+    text-align: center;
+}
+#brand-section .owl-carousel .item{
+    height: 40ch;
+    text-align:  center; 
+    background: #fff;
+    margin: 6px;
+}
+#brand-section .owl-carousel .box{
+    text-align: center;
+    height: 35ch; 
+    width: 100% ; 
+    background: rgb(235, 235, 235); 
+}
+#brand-section .owl-carousel .item img{ 
+    width:100%; 
+    height:100%;
+}
+#brand-section .owl-carousel .item h4{ 
+    font-weight: 600; 
+    font-size: 15px;  
+    padding-top: 1em;
+}
+#brand-section .btn-primary{
+    background: #0476bf;
+    color: #fff;
+    border-color: #0476bf;
+    margin-top: 2em;
+}
+/* brand section code End */
+
+/* Helth Section Code Start */
+#helth-section{
+    text-align: center;
+}
+#helth-section .image{
+    background-image: url(../images/Back-image.jpg);
+    background-size: cover;
+    height: 63ch;
+    position: relative;
+}
+#helth-section .overlay{
+    background-color: rgba(0, 0, 0, 0.74);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+}
+#helth-section .products{
+    margin-top: 20px;
+    background: rgba(253, 253, 253, 0.082);
+    padding: 20px;
+}
+#helth-section .product-image{
+    width: 262px;
+    height: 288px;
+}
+#helth-section .product-image img{
+    width: 100%;
+    height: 100%;
+}
+#helth-section .product h6{
+    font-size: 13px;
+}
+/* Helth Section Code End */
